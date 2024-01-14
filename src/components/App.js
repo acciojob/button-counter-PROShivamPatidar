@@ -1,5 +1,5 @@
 
-import React from "react";
+// import React from "react";
 import './../styles/App.css';
 import React,{useState} from "react";
 
@@ -9,7 +9,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <p>
-          button clicked {count} times
+          Button clicked {count} times
         </p>
         <button onClick={()=>setCount(count+1)}>Click me</button>
     </div>
